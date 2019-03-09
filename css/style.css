@@ -51,21 +51,23 @@ header #welcome span {
 #gifts-container {
     display: flex;
     max-width: 65vw;
-    margin: 30px auto 50px auto;
+    margin: 0 auto 50px auto;
 }
-
-#gifts-container img {
+#gifts-container .featuredGifts {
+  margin-top: 30px;
+}
+#gifts-container .featuredGifts img {
   max-width: 100%;
   border-radius: 14px 14px 0 0;
   border: solid lightgrey 1px;
 }
-#gifts-container .giftLabel {
+#gifts-container .featuredGifts .giftLabel {
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid lightgrey 1px;
 }
-#gifts-container .giftLabel p{
+#gifts-container .featuredGifts .giftLabel p{
   text-align: center;
   padding: 7px 0;
   margin: 0;
@@ -86,6 +88,12 @@ header #welcome span {
 #whyUs #icons {
     display: flex;
     justify-content: space-between;
-    width: 45%;
+    width: 60%;
     margin: 0 auto;
+}
+#whyUs #icons .iconWrapper {
+
+}
+#whyUs #icons .iconWrapper img {
+  max-width: 100%;
 }
