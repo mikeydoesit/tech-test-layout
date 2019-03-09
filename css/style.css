@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    background-image: url('../img/header/background.jpg');
+    background-size: cover;
+    padding-bottom: 2vh;
+    width: 100%;
+    position: relative;
+}
+header #flowers-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 25%;
+}
+header #flowers-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 25%;
+}
+
+header #welcome {
+ text-align: center;
+ padding: 10px 0;
+ margin: 0 auto;
+}
+
+header #welcome h1{
+    font-family: 'Caveat', 'cursive';
+    font-weight: 400;
+    font-size: 6rem;
+}
+header #welcome p {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+header #welcome span {
+    background-color: #29243E;
+    border-radius: 2.8rem;
+    padding: 0.7rem 2.7rem;
+    color: #fdfdfd;
+    font-size: 1.4rem;
+}
+
+#gifts-container {
+    display: flex;
+    max-width: 65vw;
+    margin: 30px auto 50px auto;
+}
+
+#gifts-container img {
+  max-width: 100%;
+  border-radius: 14px 14px 0 0;
+  border: solid lightgrey 1px;
+}
+#gifts-container .giftLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid lightgrey 1px;
+}
+#gifts-container .giftLabel p{
+  text-align: center;
+  padding: 7px 0;
+  margin: 0;
+}
+#whyUs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#whyUs h3 {
+    font-family: 'Quicksand', 'sans serif';
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#whyUs #icons {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 auto;
+}
