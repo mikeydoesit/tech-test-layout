@@ -6,22 +6,24 @@
 }
 header {
     background-image: url('../img/header/background.jpg');
-    background-size: cover;
-    padding-bottom: 2vh;
     width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 2vh;
     position: relative;
 }
 header #flowers-left {
   position: absolute;
   bottom: 0;
   left: 0;
-  max-width: 25%;
+  max-width: 35%;
 }
 header #flowers-right {
   position: absolute;
   bottom: 0;
   right: 0;
-  max-width: 25%;
+  max-width: 35%;
 }
 
 header #welcome {
@@ -60,19 +62,35 @@ header #welcome span:hover {
 .container .featuredGifts {
   margin-top: 30px;
 }
+.container .featuredGifts:hover img {
+  cursor: pointer;
+  opacity: 0.6;
+}
 .container .featuredGifts img {
   width: 100%;
+  transition: 0.4s ease-in-out;
   border-radius: 14px 14px 0 0;
   border: solid lightgrey 1px;
 }
 .container .featuredGifts .giftLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-top: none;
+  cursor: pointer;
+  min-height: 60px;
   border: solid lightgrey 1px;
 }
 .container .featuredGifts .giftLabel p{
+  font-size: 1.4rem;
   text-align: center;
-  padding: 7px 0;
   margin: 0;
+}
+.container .featuredGifts .giftLabel span{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: green;
 }
 #whyUs {
   text-align: center;
