@@ -41,41 +41,46 @@ header #welcome p {
 }
 
 header #welcome span {
+    display: block;
     background-color: #29243E;
     border-radius: 2.8rem;
     padding: 0.7rem 2.7rem;
+    margin: 0 auto;
+    max-width: 170px;
     color: #fdfdfd;
     font-size: 1.4rem;
+    transition: all 0.2s ease-in-out;
+}
+header #welcome span:hover {
+  color: #29243E;
+  background-color: #fdfdfd;
+  cursor: pointer;
 }
 
-#gifts-container {
-    display: flex;
-    max-width: 65vw;
-    margin: 0 auto 50px auto;
-}
-#gifts-container .featuredGifts {
+.container .featuredGifts {
   margin-top: 30px;
 }
-#gifts-container .featuredGifts img {
+.container .featuredGifts img {
   max-width: 100%;
   border-radius: 14px 14px 0 0;
   border: solid lightgrey 1px;
 }
-#gifts-container .featuredGifts .giftLabel {
+.container .featuredGifts .giftLabel {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: none;
   border: solid lightgrey 1px;
 }
-#gifts-container .featuredGifts .giftLabel p{
+.container .featuredGifts .giftLabel p{
   text-align: center;
   padding: 7px 0;
   margin: 0;
 }
 #whyUs {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  margin: 30px auto;
 }
 #whyUs h3 {
     font-family: 'Quicksand', 'sans serif';
@@ -85,15 +90,27 @@ header #welcome span {
     margin: 0 auto;
     padding-bottom: 20px;
 }
-#whyUs #icons {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: 0 auto;
+#whyUs .container {
+    padding-left: 30px;
+    padding-right: 30px;
 }
-#whyUs #icons .iconWrapper {
+#whyUs .container img {
+  max-width: 90%;
+}
 
+#whyUs #secondRowOfIcons {
+    padding-top: 30px;
 }
-#whyUs #icons .iconWrapper img {
-  max-width: 100%;
+
+#whyUs span {
+  display: block;
+    background-color: #29243E;
+    border-radius: 2.8rem;
+    padding: 0.7rem 2.7rem;
+    max-width: 170px;
+    margin: 15px auto 0 auto;
+    color: #fdfdfd;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-align: center;
 }
