@@ -100,6 +100,7 @@ header #welcome span:hover {
 
 #whyUs #secondRowOfIcons {
     padding-top: 30px;
+    display: none;
 }
 
 #whyUs span {
