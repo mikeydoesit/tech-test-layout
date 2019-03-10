@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $('#toggleIcons').on('click', function() {
-      $('#secondRowOfIcons').toggle(200);
+      $('#secondRowOfIcons').slideToggle(1000);
   });
 });
