@@ -4,32 +4,35 @@
     padding: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+/* Header styling */
+
 header {
     background-image: url('../img/header/background.jpg');
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 2vh;
+    padding-bottom: 21px;
     position: relative;
 }
 header #flowers-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  max-width: 35%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 35%;
 }
 header #flowers-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  max-width: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 35%;
 }
 
 header #welcome {
- text-align: center;
- padding: 10px 0;
- margin: 0 auto;
+   text-align: center;
+   padding: 10px 0;
+   margin: 0 auto;
 }
 
 header #welcome h1{
@@ -54,10 +57,12 @@ header #welcome span {
     transition: all 0.2s ease-in-out;
 }
 header #welcome span:hover {
-  color: #29243E;
-  background-color: #fdfdfd;
-  cursor: pointer;
+    color: #29243E;
+    background-color: #fdfdfd;
+    cursor: pointer;
 }
+
+/* Gifts section styling */
 
 .container .featuredGifts {
   margin-top: 30px;
@@ -92,6 +97,9 @@ header #welcome span:hover {
   font-weight: 500;
   color: green;
 }
+
+/* Wny shop with us styling */
+
 #whyUs {
   text-align: center;
   padding: 10px 0;
